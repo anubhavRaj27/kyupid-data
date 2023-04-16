@@ -1,18 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div>
+  <div style="padding-left: 0px;padding-right: 0px;" class="container-fluid">
+    <KyupidView
+    />
   </div>
+</div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import KyupidView from './components/kyupidView.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    KyupidView
+},
+
 }
 </script>
 
